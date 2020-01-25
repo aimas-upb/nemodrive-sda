@@ -6,6 +6,7 @@ import glob
 
 
 class CityscapesDownloader:
+    # TODO: find out whats the expected config system and use that instead of hard coding
     package_mapping = {
         'gtFine': '1',
         'gtCoarse': '2',
